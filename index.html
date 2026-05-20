@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>سياسة الخصوصية — تطبيق تَوَجُّه</title>
+  <style>
+    :root {
+      --bg: #FAFAF9;
+      --surface: #F3F1EC;
+      --border: #E0DCD2;
+      --text: #1B2236;
+      --text-secondary: #5B6275;
+      --text-muted: #8D93A3;
+      --accent: #B08A5B;
+    }
+    * { box-sizing: border-box; }
+    html { -webkit-text-size-adjust: 100%; }
+    body {
+      margin: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Tahoma",
+        "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.85;
+      font-size: 17px;
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 48px 22px 80px;
+    }
+    header { margin-bottom: 28px; }
+    h1 {
+      font-size: 30px;
+      margin: 0 0 6px;
+      letter-spacing: -0.2px;
+    }
+    .sub { color: var(--text-secondary); margin: 0; }
+    .updated {
+      color: var(--text-muted);
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    h2 {
+      font-size: 21px;
+      margin: 38px 0 10px;
+      padding-top: 8px;
+      border-top: 1px solid var(--border);
+    }
+    p { margin: 10px 0; color: var(--text); }
+    ul { margin: 10px 0; padding-inline-start: 22px; }
+    li { margin: 6px 0; }
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .lead {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 18px 20px;
+      color: var(--text);
+    }
+    .en {
+      direction: ltr;
+      text-align: left;
+      margin-top: 52px;
+      padding-top: 8px;
+    }
+    .en h2 { text-align: left; }
+    footer {
+      margin-top: 48px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--text-muted);
+      font-size: 14px;
+    }
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #12141A;
+        --surface: #1B1E26;
+        --border: #2C313D;
+        --text: #E9E6DF;
+        --text-secondary: #A8AAB2;
+        --text-muted: #6E727B;
+        --accent: #CBA77A;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <h1>سياسة الخصوصية</h1>
+      <p class="sub">تطبيق تَوَجُّه — رفيق الصلاة والسنن</p>
+      <p class="updated">آخر تحديث: ٢٠ مايو ٢٠٢٦</p>
+    </header>
+
+    <p class="lead">
+      تطبيق تَوَجُّه مصمَّم ليعمل على جهازك أولاً. لا حسابات، ولا تسجيل
+      دخول، ولا تتبُّع، ولا إعلانات، ولا أدوات تحليل. لا نجمع أي بيانات
+      شخصية عنك، وكل إعداداتك تبقى مخزَّنة على جهازك وحده.
+    </p>
+
+    <h2>١. البيانات التي نجمعها</h2>
+    <p>
+      <strong>لا نجمع أي بيانات شخصية.</strong> لا يوجد في التطبيق
+      حسابات مستخدمين، ولا تسجيل دخول، ولا أدوات تحليل (Analytics)، ولا
+      مكتبات تتبُّع أو إعلانات تابعة لجهات خارجية.
+    </p>
+
+    <h2>٢. التخزين على الجهاز</h2>
+    <p>
+      تُحفظ تفضيلاتك محلياً على جهازك فقط، ومنها: المدينة والدولة لأوقات
+      الصلاة، وفروقات الإقامة، ومظهر التطبيق (فاتح/داكن)، والأحاديث
+      المحفوظة، وحالة إنجاز العبادات اليومية. لا تُرسَل هذه البيانات إلى
+      أي خادم. وعند حذف التطبيق تُحذف جميعها معه.
+    </p>
+
+    <h2>٣. الاتصالات الخارجية</h2>
+    <p>
+      يتصل التطبيق بعدد محدود من الخدمات لجلب المحتوى الديني فقط، دون
+      إرسال أي مُعرِّفات شخصية عنك:
+    </p>
+    <ul>
+      <li>
+        <strong>Aladhan API</strong> (api.aladhan.com): لجلب مواقيت
+        الصلاة والتاريخ الهجري بطريقة أم القرى. نرسل اسم المدينة والدولة
+        التي تُدخلها أنت — ولا نستخدم تحديد الموقع الجغرافي (GPS) ولا أي
+        معلومة تعريفية.
+      </li>
+      <li>
+        <strong>dorar.net</strong>: لفتح صفحة مصدر الحديث عند الضغط على
+        رابط التحقّق.
+      </li>
+      <li>
+        <strong>equran.me</strong>: لفتح سورة الكهف للقراءة يوم الجمعة.
+      </li>
+      <li>
+        <strong>ehsan.sa</strong>: لفتح منصة إحسان الوطنية الرسمية
+        للتبرع في متصفّح جهازك.
+      </li>
+    </ul>
+    <p>
+      هذه الخدمات تابعة لجهاتها، وقد تطبَّق سياسات الخصوصية الخاصة بها
+      عند زيارتها. نحن لا نشارك معها أي بيانات شخصية عنك.
+    </p>
+
+    <h2>٤. الموقع والبوصلة</h2>
+    <p>
+      تستخدم ميزة القبلة بوصلة الجهاز (اتجاه الجهاز المغناطيسي) لتحديد
+      الاتجاه. <strong>لا نجمع موقعك ولا نخزّنه ولا نرسله.</strong>
+      أمّا موقع أوقات الصلاة فهو اسم المدينة الذي تكتبه بنفسك، وليس
+      تحديداً جغرافياً عبر GPS.
+    </p>
+
+    <h2>٥. الإشعارات</h2>
+    <p>
+      جميع الإشعارات (الأذان، الإقامة، تذكير الأذكار) محليّة تُنشأ على
+      جهازك مباشرةً. لا يوجد خادم إشعارات، ولا تُرسَل أي بيانات لتشغيلها.
+    </p>
+
+    <h2>٦. الأطفال</h2>
+    <p>
+      التطبيق مناسب لجميع الأعمار ولا يجمع أي بيانات من أي مستخدم،
+      بمن فيهم الأطفال.
+    </p>
+
+    <h2>٧. تغييرات على هذه السياسة</h2>
+    <p>
+      قد نُحدِّث هذه السياسة عند الحاجة، وسيظهر التحديث على هذه الصفحة مع
+      تعديل تاريخ "آخر تحديث" أعلاه.
+    </p>
+
+    <h2>٨. التواصل</h2>
+    <p>
+      لأي استفسار حول الخصوصية:
+      <a href="mailto:asimapps.dev@gmail.com">asimapps.dev@gmail.com</a>
+    </p>
+
+    <div class="en">
+      <h2>Privacy Policy (English summary)</h2>
+      <p>
+        <strong>Wird (تَوَجُّه)</strong> is a local-first prayer and
+        sunnah companion app. We do <strong>not</strong> collect any
+        personal data. There are no accounts, no login, no analytics,
+        no tracking, no ads, and no third-party tracking SDKs.
+      </p>
+      <p>
+        All preferences (city/country for prayer times, iqamah offsets,
+        light/dark theme, saved hadiths, daily-habit completion) are
+        stored <strong>only on your device</strong> and are deleted when
+        you uninstall the app.
+      </p>
+      <p>The app contacts a small set of services only to fetch religious content, without sending any personal identifiers:</p>
+      <ul>
+        <li><strong>Aladhan API</strong> (api.aladhan.com) — prayer times &amp; the Umm al-Qura Hijri date. We send only the city/country name you type; no GPS, no identity.</li>
+        <li><strong>dorar.net</strong> — opens a hadith's source page when you tap it.</li>
+        <li><strong>equran.me</strong> — opens Surat al-Kahf for Friday reading.</li>
+        <li><strong>ehsan.sa</strong> — opens Saudi Arabia's official donation portal in your browser.</li>
+      </ul>
+      <p>
+        <strong>Location:</strong> the Qibla feature uses the device
+        compass/heading only. We do not collect, store, or transmit your
+        location. Prayer-time location is the city name you enter, not GPS.
+      </p>
+      <p>
+        <strong>Notifications</strong> are local, generated on-device;
+        there is no push server.
+      </p>
+      <p>
+        Suitable for all ages. Contact:
+        <a href="mailto:asimapps.dev@gmail.com">asimapps.dev@gmail.com</a>
+      </p>
+    </div>
+
+    <footer>
+      تَوَجُّه — كل بياناتك على جهازك. لا تتبّع، لا حسابات.
+    </footer>
+  </div>
+</body>
+</html>
